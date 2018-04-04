@@ -8,11 +8,11 @@ module FormsLab
     end
 
     get '/new' do
-      erb :new
+      erb :'pirates/new'
     end
 
     post '/pirates' do
-      erb :show
+      erb :'pirates/show'
     end
     # code other routes/actions here
 
