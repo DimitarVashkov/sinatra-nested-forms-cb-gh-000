@@ -12,6 +12,8 @@ module FormsLab
     end
 
     post '/pirates' do
+      @pirate = params[:pirate]
+      
       erb :'pirates/show'
     end
     # code other routes/actions here
